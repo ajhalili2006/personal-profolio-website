@@ -9,7 +9,12 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitle: `Andrei Jiroh`,
+    siteTitleAlt: `Portfolio - Andrei Jiroh`,
+    siteUri: `https://andreijiroh.gq`,
+    siteDescription: `Public portfolio of Andrei Jiroh. Projects, links and more.`,
+    siteLanguage: `en`,
+    author: `Andrei Jiroh`,
   },
   plugins: [
     {
