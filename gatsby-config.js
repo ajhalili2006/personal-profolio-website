@@ -6,15 +6,24 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
     siteTitle: `Andrei Jiroh`,
+
     siteTitleAlt: `Portfolio - Andrei Jiroh`,
+
+    // Base URI for generating abosulte URLs.
     siteUri: `https://andreijiroh.gq`,
+
     siteDescription: `Public portfolio of Andrei Jiroh. Projects, links and more.`,
+
+    // Site description for SEO.
+    siteDescription: `The public portfolio of Andrei Jiroh. Just projects, links, and more stuff KEK.`,
+
+    // Sorry, even I'm Filipino, I prefer to speak English.
     siteLanguage: `en`,
-    author: `Andrei Jiroh`,
+
+    // My Twitter handle.
+    author: `@Kuys_Potpot`,
   },
   plugins: [
     {
